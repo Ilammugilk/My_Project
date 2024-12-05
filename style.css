@@ -1,0 +1,86 @@
+/* LET THE STYLING BEGIN */
+section {
+    position: relative;
+  }
+  
+  body{
+    min-height: 100vh;
+    background-image: url("images/pexels-njeromin-18023798.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size:cover;
+  }
+  .box{
+    border: none;
+    border-radius: 10px;
+    background:hsla(240, 1%, 33%, 0.5);
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-shadow: 0px 0px 25px black;
+    min-width: 85vh;
+    min-height: 55vh;
+  }
+  .box div h6{
+    margin-left: 40vh;
+    padding-top: 30px;
+    color: white;
+    font-weight: 400;
+    font-size: 2.3vh;
+  }
+  .box div h2{
+    padding: 20px;
+    color: white;
+    font-size: 45px;
+    font-weight: 400px;
+    margin-top: -10px;
+  }
+  .box section h1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 500;
+    color: white;
+  }
+  .box div span{
+    padding: 30px;
+    color: white;
+    font-weight: 400;
+    font-size: 2.3vh;
+  }
+  .weather-icon{
+    width: 170px;
+    margin-left: 170px;
+  }
+  .details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+  }
+  .col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: white;
+  }
+  .details img{
+    width: 40px;
+    margin-right: 10px;
+  }
+  .humidity, .wind{
+    font-size: 15px;
+  }
+  #space{
+    margin-left: 150px;
+  }
+  .weather{
+    display: none;
+  }
+  .error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: red;
+    display: none;
+  }
